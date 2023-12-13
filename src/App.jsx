@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="landing" element={<Landing />} />
+        <Route path="register" element={<Register />} />
       </Routes>
       <ToastContainer position="top-center" />
     </BrowserRouter>
