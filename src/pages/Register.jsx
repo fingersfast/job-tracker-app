@@ -36,6 +36,7 @@ function Register() {
     if (isMember) {
       dispatch(loginUser({ email: email, password: password }));
     }
+    dispatch(registerUser({ name, email, password }));
   };
 
   const toggleMember = () => {
