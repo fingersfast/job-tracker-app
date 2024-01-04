@@ -35,6 +35,7 @@ function Register() {
     }
     if (isMember) {
       dispatch(loginUser({ email: email, password: password }));
+      return;
     }
     dispatch(registerUser({ name, email, password }));
   };
